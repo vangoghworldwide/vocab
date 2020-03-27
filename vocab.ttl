@@ -1,13 +1,13 @@
-@prefix vgw: <https://vangoghworldwide.org/data/> .
+@prefix vgwi: <https://vangoghworldwide.org/data/identifier> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-vgw:identifier/f a skos:Concept ;
+vgwi:f a skos:Concept ;
     rdfs:label "De La Faille number" ;
     rdfs:comment "Catalogue number used in The Works of Vincent van Gogh: His Paintings and Drawings by Jacob Baart de la Faille." .
 
-vgw:identifier/jh a skos:Concept ;
+vgwi:jh a skos:Concept ;
     rdfs:label "JH number" ;
     rdfs:comment "Catalogue number used in The Complete Van Gogh: Paintings, Drawings, Sketches by Jan Hulsker." .
 
