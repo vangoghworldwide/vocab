@@ -7,7 +7,7 @@ vgw:f_number a skos:Concept ;
     skos:prefLabel "De La Faille number" ;
     skos:scopeNote "Catalogue number used in The Works of Vincent van Gogh: His Paintings and Drawings by Jacob Baart de la Faille." .
 
-vgwi:jh_number a skos:Concept ;
+vgw:jh_number a skos:Concept ;
     skos:prefLabel "JH number" ;
     skos:scopeNote "Catalogue number used in The Complete Van Gogh: Paintings, Drawings, Sketches by Jan Hulsker." .
 
