@@ -4,10 +4,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 vgw:f_number a skos:Concept ;
-    skos:prefLabel "De La Faille number" ;
-    skos:scopeNote "Catalogue number used in The Works of Vincent van Gogh: His Paintings and Drawings by Jacob Baart de la Faille." .
+    skos:prefLabel "De La Faille number"@en ;
+    skos:scopeNote "Catalogue number used in The Works of Vincent van Gogh: His Paintings and Drawings by Jacob Baart de la Faille."@en .
 
 vgw:jh_number a skos:Concept ;
-    skos:prefLabel "JH number" ;
-    skos:scopeNote "Catalogue number used in The Complete Van Gogh: Paintings, Drawings, Sketches by Jan Hulsker." .
+    skos:prefLabel "JH number"@em ;
+    skos:scopeNote "Catalogue number used in The Complete Van Gogh: Paintings, Drawings, Sketches by Jan Hulsker."@en .
 
