@@ -13,5 +13,5 @@ vgw:jh_number a skos:Concept ;
 
 vgw:previous_attribution a skos:Concept ;
     skos:prefLabel "Previously attributed to Vincent van Gogh" ;
-    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh was previously attributed as it's contributor but evindence has shown that this was not the case."@en .
+    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh was previously attributed as it's contributor but evindence has shown that this was not the case." .
 
