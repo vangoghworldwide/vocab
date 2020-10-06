@@ -15,3 +15,10 @@ vgw:previous_attribution a skos:Concept ;
     skos:prefLabel "Previously attributed to Vincent van Gogh" ;
     skos:scopeNote "Concept to indicate for a work that Vincent van Gogh was previously attributed as it's contributor but evindence has shown that this was not the case." .
 
+vgw:empty_value a skos:Concept ;
+    skos:prefLabel "No value" ;
+    skos:scopeNote "Concept to indicate that a work misses a value in facet. This is used in Spinque facet strategies. It is not intended for use directly in the data." .
+
+vgw:identifier a rdf:Property ;
+    rdfs:label "VGW Identifier" ;
+    rdfs:comment "Identifier used in VGW for artworks" .
