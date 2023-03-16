@@ -13,11 +13,15 @@ vgw:jh_number a skos:Concept ;
 
 vgw:previous_attribution a skos:Concept ;
     skos:prefLabel "Previously attributed to Vincent van Gogh" ;
-    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh was previously attributed as it's contributor but evindence has shown that this was not the case." .
+    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh was previously attributed as its contributor but evindence has shown that this was not the case." .
 
 vgw:questionable_attribution a skos:Concept ;
     skos:prefLabel "Questionable attribution to Vincent van Gogh" ;
-    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh is questioned as it's contributor." .
+    skos:scopeNote "Concept to indicate for a work that Vincent van Gogh is questioned as its contributor." .
+
+vgw:current_whereabouts_unknown a skos:Concept ;
+    skos:prefLabel "Current whereabouts unknown" ;
+    skos:scopeNote "Concept to indicate for a work by Vincent van Gogh that its current whereabouts are unknown." .
 
 vgw:empty_value a skos:Concept ;
     skos:prefLabel "No value" ;
