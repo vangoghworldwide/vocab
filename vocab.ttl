@@ -24,8 +24,10 @@ vgw:current_whereabouts_unknown a skos:Concept ;
     skos:scopeNote "Concept to indicate for a work by Vincent van Gogh that its current whereabouts are unknown." .
 
 vgw:empty_value a skos:Concept ;
-    skos:prefLabel "No value" ;
-    skos:scopeNote "Concept to indicate that a work misses a value in facet. This is used in Spinque facet strategies. It is not intended for use directly in the data." .
+    skos:prefLabel "[not specified]" ;
+    skos:altLabel "No value" ;
+    skos:scopeNote "Concept to indicate that a work misses a value in facet. This is used in Spinque facet strategies. It is not intended for use directly in the data." ;
+    skos:editorialNote "November 2024: changed preferred label No value into [not specified] at the request of the Change Advisory Board of the Van Gogh Worldwide Consortium" .
 
 vgw:identifier a rdf:Property ;
     rdfs:label "VGW Identifier" ;
